@@ -24,7 +24,7 @@ namespace PremierTabell
            
             var test = new Match(lfc, manU, 3, 2);
             var testPoints = new Points(test);
-            
+            //funker ikke cannot convert from void to bool
             Console.WriteLine(testPoints.Results());
             
         }
