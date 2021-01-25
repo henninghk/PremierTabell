@@ -15,7 +15,7 @@ namespace PremierTabell
             aSingleMatch = match1;
         }
         int pointInMatch = 3;
-        public  void Results()
+        public string Results()
         {
             
             if (aSingleMatch.GoalHome > aSingleMatch.GoalAway)
@@ -27,7 +27,7 @@ namespace PremierTabell
                 AwayTeamPoints = pointInMatch;
             }
             
-            
+            return "Hei";
         }
     }
 }
