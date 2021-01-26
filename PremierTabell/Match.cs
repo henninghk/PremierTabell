@@ -19,9 +19,5 @@ namespace PremierTabell
         }
 
        
-
-
-  
-
     }
 }

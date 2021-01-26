@@ -15,19 +15,26 @@ namespace PremierTabell
             aSingleMatch = match1;
         }
         int pointInMatch = 3;
+
         public string Results()
         {
             
             if (aSingleMatch.GoalHome > aSingleMatch.GoalAway)
                 {
-                    HomeTeamPoints = pointInMatch;
+               var home = HomeTeamPoints = pointInMatch;
+                home.ToString();
+                Console.WriteLine("hjemmelaget " + home);
+                    
                 }
             if (aSingleMatch.GoalHome < aSingleMatch.GoalAway)
             {
-                AwayTeamPoints = pointInMatch;
+                var away =AwayTeamPoints = pointInMatch;
+                away.ToString();
+                Console.WriteLine("bortelaget " + away);
             }
             
-            return "Hei";
+           return null;
+            
         }
     }
 }
